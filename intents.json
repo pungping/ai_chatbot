@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "sawasdee",
+        "greeting",
+        "good morning",
+        "Good day",
+        ""
+      ],
+      "responses": [
+        "Hey :-)",
+        "HI :3",
+        "hello ",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is you name",
+        "who is that",
+        "what should I call you?",
+        "what are you ?"
+  
+      ],
+      "responses": [
+        "I am KAPX",
+        "I am KAPX your assistance"
+      ]
+    },
+    {
+      "tag": "pysche",
+      "patterns": [
+        "what is pysche?",
+        "what is about psyche?",
+        "tell me about psyche."
+      ],
+      "responses": [
+        "PSYCHE is ......."
+      ]
+    },
+    {
+      "tag": "moodsad",
+      "patterns": [
+        "I am sad",
+        "It was sad",
+        "sad",
+        "i'm sad",
+        "im sad"
+      ],
+      "responses": [
+        "you can tell me",
+        "do tell",
+        "what make you sad ? tell me"
+      ]
+    },{
+      "tag": "moew",
+      "patterns": [
+        "Meow",
+        "meowww"
+      ],
+      "responses": [
+        "Aww",
+        "good boy",
+        "hey kitty",
+        "Ohh you are cat !!"
+      ]
+    },
+    {
+      "tag": "needhelp",
+      "patterns": [
+        "Can you help me ?",
+        "Cna I talk to you",
+        "I need help"
+      ],
+      "responses": [
+        "Sure ! tell me what you need",
+        "What can I help you ?"
+      ]
+    }
+  ]
+}
